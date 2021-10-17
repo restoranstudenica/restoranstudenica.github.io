@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sajt za prezentaciju Bootstrap 4 biblioteke">
+    <meta name="keywords" content="Restaurant, Bootstrap 4, Tutorial, CSS, Get Start, JavaScript, JS, HTML, SCSS, Responsive, Mobile, Components,
+    Documentation, Examples, Quick start">
+    <title>WBT Bootstrap 4-početna</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+
+</head>
+<body>
+  <!--SCROOL BAR--->
+  <div class="progresss"></div>
+  <!--KRAJ SCROOL BARA-->
+ <!-- ======= Top Bar ======= -->
+ <div id="topbar" class="d-flex align-items-center fixed-top" style="background-image: url('assets/hamburger.jp');">
+    <div class="container d-flex">
+      <div class="contact-info mr-auto">
+        <i class="icofont-phone"></i> +381 64 223 4711
+        <span class="d-none d-lg-inline-block"><i class="icofont-clock-time icofont-rotate-180"></i> Pon-Pet: 08:00 - 23:00</span>
+      </div>
+    </div>
+  </div>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+    
+          <h1 class="logo mr-auto"><a href="home.html">STUDENICA</a></h1>
+          <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    
+          <nav class="nav-menu d-none d-lg-block navbar-expand-lg ">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" href="home.html">Početna <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="about_us.html">O nama</a>
+                  <a class="nav-link" href="specijaliteti_kuce.html">Specijaliteti kuće</a>
+                  <a class="nav-link" href="galery.html">Galerija</a>
+                  <a class="nav-link " href="contact.html" tabindex="-1" aria-disabled="true">Kontakt</a>
+                  <a class="nav-item dropdown"></a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Meni
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #292d31;
+                    color:white; text-align: center; margin-right: 0%;">
+                      <a class="dropdown-item" href="menu.html">Jelovnik</a>
+                      <a class="dropdown-item" href="karta_pica.html">Karta pića</a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+          </nav><!-- .nav-menu -->
+    
+        </div>
+      </header><!-- End Header -->
+ <!-- ======= Hero Section ======= -->
+ <section id="hero" class="d-flex align-items-center" style="background-image: url('assets/hamburger.jpg');">
+    <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Dobrodošli u restoran<span> Studenica</span></h1>
+          <h2>Naš restoran priprema najukusniju hranu za vas više od deset godina</h2>
+
+          <div class="btns">
+            <a href="karta_pica.html#kp" class="btn-menu animated fadeInUp scrollto">Naša karta pića</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+  <!--JELOVNIK SECTION-->
+  <div class="container" id="meni">
+      <div class="row">
+          <div class="col-4"  style="padding-left: 19%;">
+              <img src="assets/icon5.PNG" alt="">
+          </div>
+          <div class="col-4">
+          <h2 class="h2_main" style="text-align: center; margin-top: 10%;">Jelovnik</h2>
+        </div>
+        <div class="col-4"   style="margin-right: 0%;">
+            <img src="assets/icon6.PNG" alt="">
+        </div>
+      </div>
+  </div>
+  <div class="container">
+    <h4 class="h3_glavna">Kuver, peciva i apetisani</h4>
+          <p class="elementi text-center" style="font-style: italic;">Pola porcije se naplaćuje 65% od cene. Cene su sa porezom.</p>
+      <div class="row text-center">
+          <div class="col-6">
+            <p class="p_meni">Kuver <span style="padding-left: 80%;">120</span></p> 
+            <hr style=" border-top: 2px solid gray;">
+            <p class="p_meni">Lepinja <span style="padding-left:80%;">50</span></p>
+            <hr style=" border-top: 2px solid gray;">
+          </div>
+          <div class="col-6">
+            <p class="p_meni">Dezinfekciona salveta <span style="padding-left: 58%;">60</span></p>
+            <hr style=" border-top: 2px solid gray;">
+            <p class="p_meni">Domaće pecivo <span style="padding-left: 68%;">70</span></p>
+            <hr style=" border-top: 2px solid gray;">
+          </div>
+      </div>
+      <h4 class="h3_glavna mt-4">Hladna Predjela</h4>
+      <p class="elementi text-center" style="font-style: italic;">Svakodnevni laboratorijski pregled zdravstvene ispravnosti svih namirnica i naših proizvoda vrši diplomirani tehnolog.</p>
+      <div class="row text-center">
+        <div class="col-6">
+            <p class="p_meni">Studenička zakuska <span style="padding-left: 60%;">400</span></p>
+            <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Tanjir sireva <span style="padding-left:70%;">1000</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+      <div class="col-6">
+          <p class="p_meni">Mladi sir ili Mocarela <span style="padding-left:57%" >450</span></p>
+          <hr style=" border-top: 2px solid gray;">
+          <p class="p_meni">Izbor goveđih pršuta<span style="padding-left:56%" >1400</span></p>
+          <hr style=" border-top: 2px solid gray;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <p class="p_meni">Pekorino, Parmezan <span style="padding-left: 58%;">700</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Sjenički sir <span style="padding-left:73%;">420</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+      <div class="col-6">
+        <p class="p_meni">Sir iz ulja sa tartufima <span style="padding-left: 54%;">1000</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Prebranac, kajmak <span style="padding-left: 61%;">470</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+    </div>
+    <h4 class="h3_glavna mt-5">Salate-jela</h4>
+    <div class="row mt-4">
+      <div class="col-6">
+        <p class="p_meni">Cezar salata <span style="padding-left: 71%;">660</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Biftek na ajsberg salati <span style="padding-left: 54%;">850</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+      <div class="col-6">
+        <p class="p_meni">Kapreze salata <span style="padding-left: 67%;">900</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni" >Biftek u zelenim salatama / čeri, parmezan <span style="padding-left: 21%;">930</span></p> 
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+    </div>
+    <h4 class="h3_glavna mt-5">Jela sa roštilja</h4>
+    <div class="row mt-4">
+      <div class="col-6">
+        <p class="p_meni">Biftek grilovan – 350g <span style="padding-left: 53%;">2200</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Teleći medaljoni, grilovani <span style="padding-left: 46%;">1800</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+      <div class="col-6">
+        <p class="p_meni">Pljeskavica ili ćevapčići na grilu <span style="padding-left: 40%;">700</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Domaće kobasice/dimljene <span style="padding-left: 46%;">900</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <p class="p_meni">Bela vešalica <span style="padding-left: 68%;">1400</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Ramstek /400g <span style="padding-left: 64%;">1800</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+      <div class="col-6">
+        <p class="p_meni">Gurmanska pljeskavica <span style="padding-left: 53%;">850</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Gurmanski uštipci <span style="padding-left: 61%;">950</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <p class="p_meni">File, grilovan /sv <span style="padding-left: 63%;">1400</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Ribaj stek /kg <span style="padding-left: 67%;">4300</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+      <div class="col-6">
+        <p class="p_meni">Vešalica u maramici <span style="padding-left: 58%;">850</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Bela vešalica u maramici <span style="padding-left: 50%;">950</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+    </div>
+    <h4 class="h3_glavna mt-5">Čorbe - Supe - Potaži</h4>
+    <div class="row mt-4">
+      <div class="col-6">
+        <p class="p_meni">Teleća ili jagnjeća čorba <span style="padding-left: 52%;">400</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Riblja čorba <span style="padding-left: 71%;">380</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+      <div class="col-6">
+        <p class="p_meni">Potaž od pečuraka ili povrća <span style="padding-left: 44%;">350</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Goveđa supa <span style="padding-left: 68%;">320</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+    </div>
+    <h4 class="h3_glavna mt-5">Specijaliteti od piletine</h4>
+    <div class="row mt-4">
+      <div class="col-6">
+        <p class="p_meni">Pileći file, grilovan <span style="padding-left: 61%;">900</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Punjeni medaljoni <span style="padding-left: 59%;">1000</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+      <div class="col-6">
+        <p class="p_meni">Pileći tanjir Studenica<span style="padding-left: 53%;">1400</span></p>
+        <hr style=" border-top: 2px solid gray;">
+        <p class="p_meni">Rolovani pileći file sa slaninicom <span style="padding-left: 35%;">1000</span></p>
+        <hr style=" border-top: 2px solid gray;">
+      </div>
+    </div>
+    </div>
+  <!--END JELOVNIK SECTION-->
+   <!-- ======= Footer ======= -->
+   <footer  class="elementi" style="background-color:#212529; padding-top: 5%;">
+    <h3 class="h2_main text-center" style="color:rgb(156, 78, 33); margin-top: -3%;">Studenica</h3>
+    <div class="container">
+      <div class="row mb-4" style="color:white;">
+        <div class="col-4 footer-newsletter footer-top">
+            <h4 style="color:white;" class="text-center">Naše novosti</h4>
+            <p style="color:white;">Prijavite se da biste pratili nase vesti</p>
+            <form action="" method="post" >
+              <input type="email" name="email" style="margin-right:4%;background-color: rgba(85, 76, 76, 0.2); border: 1px solid rgb(156, 78, 33); border-radius: 50px; color: white;;"><input type="submit" value="Prijavi se" style="padding-left:5%;padding-right:5%;background-color: rgb(156, 78, 33); color:white; border:none; border-radius: 50px;"> 
+            </form>
+          </div>
+        <div class="col-4 text-center" style="color:rgb(156, 78, 33); font-size: 2rem;">
+          <h4 class="text-center" style="color:white;  font-family: 'Nanum Gothic', sans-serif;">Potražite nas na društvenim mrežama</h4>
+          <i class="fa fa-instagram" aria-hidden="true" style="padding-right: 28%;"></i>
+          <i class="fa fa-facebook" aria-hidden="true" style="padding-right: 28%;"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+        <div class="col-4 text-center">
+          <h4 class="text-center" style="color:white;  font-family: 'Nanum Gothic', sans-serif;">Posetite nas</h4>
+          <p style="color:white;  font-family: 'Nanum Gothic', sans-serif;">
+            <i class="fa fa-map-marker" aria-hidden="true" style="color:rgb(156, 78, 33);padding-right: 3%;"></i>  Adresa: Studenica BB
+          <br>
+          <i class="fa fa-car" aria-hidden="true" style="color:rgb(156, 78, 33);"></i> Besplatna kućna dostava: 08:00h-23:00h
+          <br>
+          <i class="fa fa-phone" aria-hidden="true" style="color:rgb(156, 78, 33);"></i>  Telefon: 036-5430-636
+          </p>
+        </div>
+      </div>
+    </div>
+     <div class="text-center p-3" style="background-color: rgba(85, 76, 76, 0.2);">
+      <p style="color:blanchedalmond; text-align: center;">2021 Copyright &copy; by Marta Mladenović</p>
+    </div>
+  </footer>
+  <!-- End Footer -->
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script
+src="https://code.jquery.com/jquery-3.5.1.js"
+integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+crossorigin="anonymous"></script><script>
+AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
